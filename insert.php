@@ -8,7 +8,7 @@
 <body>
     <center>
         <?php
-        $conn = mysqli_connect("localhost", "root", "", "test272");
+        $conn = mysqli_connect("database-1.cxfl8tcgw2oc.us-west-1.rds.amazonaws.com", "root", "12345678", "cmpe272");
         if($conn === false){
             die("ERROR: Could not connect. " 
                 . mysqli_connect_error());
